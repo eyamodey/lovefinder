@@ -1,0 +1,167 @@
+body{
+  font-family: "Montserrat";
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navigation bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navbar navbar-expand-lg navbar-dark{
+  padding-bottom: 50px;
+}
+
+/* Title */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.title-column{
+  padding-right: 0;
+}
+
+.header{
+  font-family: "Montserrat Black";
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.iphone{
+  transform: rotate(25deg);
+  padding-left: 25%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Title bar download buttons */
+
+.download-button{
+  margin: 10% 5% 0 0;
+}
+
+/* Features section */
+
+#features{
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.col-md-4{
+  text-align: center;
+  padding: 5%;
+}
+
+.h3-features-headers{
+  font-size: 1.5rem;
+  font-family: "Montserrat Black";
+}
+
+.features-icon{
+  color: #ff4c68;
+  margin-bottom: 5%;
+}
+.features-icon:hover{
+  color: blue;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+.customer-speak{
+  font-family: "Montserrat-Bold";
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.customer-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.carousel-item{
+  padding: 7% 10%;
+}
+
+  /* Press */
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 12%;
+  margin-right: 5%;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 5%;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.card{
+  margin: 1% 0;
+  padding: 0;
+}
+
+/* Call to action */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 8% 12%;
+}
+
+.h3-bottom-tag{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat Black";
+  padding: 0 12%;
+}
+
+ /* Footer Section */
+
+#footer{
+  text-align: center;
+  padding: 7% 10%;
+}
+
+.footer-icon{
+  color: Black;
+  margin: 0 1% 1%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
